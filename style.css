@@ -1,0 +1,27 @@
+/* CSS selectors */
+
+h1 {
+    color: blue;
+}
+
+/* class selectors */
+/* It can be applied to many elements */
+.red-text {
+    color: red;
+}
+
+/* Id selectors */
+/* It can be use for only one element */
+#main {
+    color: red;
+}
+
+
+/* Attribute selectors */
+p[draggable="true"]{
+    color: blueviolet;
+}
+
+p[draggable="false"]{
+    color:chocolate
+}
