@@ -8,31 +8,34 @@ The first line is doctype declaration, it tells the browser which version of the
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael Hsieh's Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Michael Hsieh's Portfolio</h1>
+    <h1 class="red-text" id="main">Michael Hsieh's Portfolio</h1>
     <h2>I'm a RPA Developer.</h2>
     <h3>Summary</h3>
-    <p>Brah Brah Brah...</p>
+    <p draggable="false">Brah Brah Brah...</p>
     <hr>
 
     <h3>Education</h3>
-    <p>Education Description</p>
+    <p draggable="true">Education Description</p>
     <hr>
     <h3>Work Experience</h3>
     <p>
         <ul>
             <li>
                 <h4>Quanta Cloud Technology</h4>
-                <p>
+                <p id="main">
                     May 2019 - Present<br>
                     <ul>
                         <li>Support internal customers for digital transformation.</li>
                         <li>Helping department to increase their productivity and reduce error and risk.</li>
                         <li>RPA Projects</li>
-                        <ol>
+                        <ol start="2">
                             <li>Invoice Operation</li>
-                            <li>Shortage Management</li>
+                            <li value="6">Shortage Management</li>
                         </ol>
                     </ul>
                 </p>

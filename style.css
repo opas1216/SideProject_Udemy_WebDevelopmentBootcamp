@@ -1,8 +1,35 @@
 /* CSS selectors */
+html {
+    font-size: xx-large;
+}
 
 h1 {
     color: blue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Pacifico', cursive; */
 }
+
+h2 {
+    /* font-family: "Times New Roman", Times, serif */
+    font-family: 'Pacifico', cursive;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    font-size: 12pt;
+}
+
+
+/* ol {
+    margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside;
+} */
 
 /* class selectors */
 /* It can be applied to many elements */
@@ -10,12 +37,39 @@ h1 {
     color: red;
 }
 
+.note {
+    font-size: 20px;
+}
+
+.color-title {
+    font-weight: normal;
+}
+
 /* Id selectors */
 /* It can be use for only one element */
 #main {
-    color: red;
+    color:aqua;
 }
 
+#id-selector-demo {
+    color: green;
+}
+
+#pixel {
+font-size: 20px;
+}
+
+#point {
+    font-size: 20pt;
+}
+
+#em {
+    font-size: 1em
+}
+
+#rem {
+    font-size: 1rem;
+}
 
 /* Attribute selectors */
 p[draggable="true"]{
@@ -25,3 +79,16 @@ p[draggable="true"]{
 p[draggable="false"]{
     color:chocolate
 }
+
+li[value]{
+    color: yellow;
+}
+
+li[value="4"]{
+    color:blue;
+}
+
+/* Universal selector */
+/* * {
+    text-align: center;
+} */
