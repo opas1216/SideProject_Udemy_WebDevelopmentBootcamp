@@ -52,6 +52,7 @@ footer {
     margin-left: 25%;
     width: 50%;
     text-align: center;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .meme-text {
@@ -99,7 +100,7 @@ font-size: 20px;
 }
 
 #meme-h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Libre Baskerville', serif;
 }
 
 #meme-img {
