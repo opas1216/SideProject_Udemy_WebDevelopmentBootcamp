@@ -45,6 +45,33 @@ footer {
     font-weight: normal;
 }
 
+.meme-body {
+    background-color: black;
+}
+.meme-div {
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+.meme-text {
+    color: white;
+}
+
+.meme-bg-color {
+    background-color: black;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.meme-img {
+    margin-top: 100px;
+    width: 100%;
+    border: 5px solid white;
+}
+
 /* Id selectors */
 /* It can be use for only one element */
 #main {
@@ -71,6 +98,15 @@ font-size: 20px;
     font-size: 1rem;
 }
 
+#meme-h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+#meme-img {
+    border-width: 5px;
+    border-color: white;
+}
+
 /* Attribute selectors */
 p[draggable="true"]{
     color: blueviolet;
@@ -87,6 +123,7 @@ li[value]{
 li[value="4"]{
     color:blue;
 }
+
 
 /* Universal selector */
 /* * {
