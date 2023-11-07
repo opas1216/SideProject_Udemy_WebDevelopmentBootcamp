@@ -3,6 +3,10 @@ html {
     font-size: xx-large;
 }
 
+body {
+    background-color: orange;
+}
+
 h1 {
     color: blue;
     font-weight: bold;
@@ -20,8 +24,14 @@ img {
     width: 200px;
 }
 
+header {
+    background-color: pink;
+    padding: 20px;
+}
+
 footer {
     font-size: 12pt;
+    text-align: center;
 }
 
 
@@ -76,7 +86,7 @@ footer {
 /* Id selectors */
 /* It can be use for only one element */
 #main {
-    color:aqua;
+    color:red;
 }
 
 #id-selector-demo {
