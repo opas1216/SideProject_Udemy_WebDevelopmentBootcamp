@@ -25,6 +25,9 @@
             <button class="button" id="fixed-btn">
                 Fixed Positioning
             </button>
+            <button class="button" onclick="history.back()" id="return-btn">
+                Back To Homepage
+            </button>
         </div>
         <div class="positioning-type static" style="display: block;">
             <h2>Static Positioning</h2>
@@ -75,13 +78,14 @@
 
     
     <footer style="text-align: center;">
-        <p>For self-practicing purpose</p>
+        <p style="color: black;">For self-practicing purpose</p>
     </footer>
     <script>
         const staticBtn = document.getElementById('static-btn');
         const relativeBtn = document.getElementById('relative-btn');
         const absoluteBtn = document.getElementById('absolute-btn');
         const fixedBtn = document.getElementById('fixed-btn');
+        const returnBtn = document.getElementById('return-btn');
 
         const staticPositioning = document.querySelector('.static');
         const relativePositioning = document.querySelector('.relative');
@@ -112,6 +116,9 @@
             absolutePositioning.style.display = 'none';
             fixedPositioning.style.display = 'block';
         });
+        // returnBtn.addEventListener('click', ()=>{
+            
+        // })
 
     </script>
 

@@ -40,25 +40,25 @@ main {
     display: none;
 } 
 
-.static {
+.static .box {
     position: static;
     left: 50px;
     top: 50px;
 }
 
-.relative {
+.relative .box {
     position: relative;
     left: 50px;
     top: 50px;
 }
 
-.absolute {
+.absolute .box {
     position: absolute;
     left: 50px;
     top: 50px;
 }
 
-.fixed {
+.fixed .box {
     position: fixed;
     left: 50px;
     top: 50px;
@@ -69,9 +69,15 @@ main {
     width: 200px;
     height: 200px;
     border: 1px solid black;
+    z-index: -1;
+}
 
-    /* padding: 10px; */
-    /* border: 10px solid purple; */
+.red-circle {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
 }
 
 
