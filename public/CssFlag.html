@@ -7,37 +7,41 @@
   <style>
     /* Write your CSS Code here */
     .flag {
-      background-color:red;
+      background-color:#ce1126;
       width: 900px;
       height: 600px;
+      position: relative;
+      /* position: absolute; */
     }
-    .flag > p{
-      font-size: 50px;
+    p {
+      font-size: 5rem;
       color: white;
-      width: 600px;
-      height: 100px;
       text-align: center;
     }
 
     .flag > div {
       /* Blue */
-      width: 900px;
-      height: 200px;
-      background-color: blue;
+      width: 100%;
+      height: 300px;
+      background-color: #002868;
+      top: 150px;
+      position: absolute;
     }
 
-
-    .flag div div p {
-      width: 100px;
-      height: 100px;
-      left: 250px;
-      top: 50px;
-      position: relative;
+    .flag > div > div {
       background-color: white;
       border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 50px;
+      left: 350px;
+    }
+
+    .flag div div p {
       color: black;
-      font-size: 30px;
-      text-wrap: ;
+      padding: 0px;
+      margin: 0px;      
     }
 
   </style>
