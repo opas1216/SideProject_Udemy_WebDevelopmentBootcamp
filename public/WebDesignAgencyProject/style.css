@@ -8,6 +8,7 @@ body {
 }
 .main {
   flex: 1;
+  
 }
 
 h1 {
@@ -19,3 +20,43 @@ footer {
   color: midnightblue;
 }
 
+.creative {
+  color: midnightblue;
+}
+
+.left {
+  float: left;
+  flex: 0.5;
+}
+
+.right {
+  float: right;
+  flex: 0.5;
+}
+
+.card {
+  /* display: inline-block; */
+  display: block;
+  width: 45%;
+  text-align: justify;
+}
+
+.tile-image {
+  float: left;
+  width: 20%;
+  /* display: inline-block; */
+}
+
+.card-title {
+  /* float: left; */
+  /* clear: both; */
+  /* display: inline-block; */
+}
+
+.card-text {
+  /* display: inline-block; */
+}
+
+.card img {
+  display: inline;
+}
